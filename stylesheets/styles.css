@@ -364,7 +364,7 @@ fieldset {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 legend {
@@ -850,6 +850,16 @@ nav ul a:hover {
   color: #999;
 }
 
+.about {
+  width: 180px;
+  position: fixed;
+  left: 50%;
+  margin-left: -530px;
+  top: 220px;
+  text-align: right;
+  line-height: 16px;
+}
+
 footer {
   width: 180px;
   position: fixed;
@@ -864,6 +874,10 @@ footer {
   div.wrapper {
     width: auto;
     margin: 0;
+  }
+
+  .about {
+    display: none;
   }
 
   nav {
