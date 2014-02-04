@@ -596,6 +596,9 @@ code {
   -khtml-border-radius: 2px;
   border-radius: 2px;
 }
+code.small {
+  font-size: 10px;
+}
 
 pre {
   padding: 8px 15px;
